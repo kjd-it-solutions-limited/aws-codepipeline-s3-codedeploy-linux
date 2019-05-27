@@ -1,7 +1,10 @@
    cd ~/aws-codepipeline-s3-codedeploy-linux/
    git add *
-    echo "ken@kjdsolutions.co.uk"
-        echo "Yassmine22"git commit -m "test"
+   echo ""
+   echo "ken@kjdsolutions.co.uk"
+   echo "Yassmine22"
+   echo ""
+   git commit -m "test"
    git push 
    git status
    git add *
