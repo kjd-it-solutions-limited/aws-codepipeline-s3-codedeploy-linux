@@ -6,5 +6,7 @@
    git add *
    git status
    mess=`date`
+	echo "ken@kjdsolutions.co.uk"
+        echo "Yassmine22"
    git commit -m "updated on $mess"
-
+   git status
