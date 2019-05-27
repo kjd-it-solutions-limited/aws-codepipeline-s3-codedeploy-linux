@@ -5,5 +5,6 @@
    git status
    git add *
    git status
-   git commit -m "updated on `date`"
+   mess=`date`
+   git commit -m "updated on $mess"
 
