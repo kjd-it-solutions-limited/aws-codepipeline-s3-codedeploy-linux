@@ -73,18 +73,9 @@ $headers = 'From: '.$email_from."\r\n".
 <!-- place your own success html below -->
 
 Thank you for contacting us. We will be in touch with you very soon.
-<?php $referer = filter_var($_SERVER['HTTP_REFERER'], FILTER_VALIDATE_URL);
-
-	if (!empty($referer)) {
-
-		echo '<p><a href="'. $referer .'" title="Return to the previous page">&laquo; Go back</a></p>';
-
-	} else {
-
-		echo '<p><a href="javascript:history.go(-1)" title="Return to the previous page">&laquo; Go back</a></p>';
-
-	}
-?>
+<form>
+	<input type="button" value="Return to previous page" onClick="javascript:history.go(-1)" />
+</form>
 <?php
 }
 die();
