@@ -64,7 +64,7 @@ if(isset($_POST['email'])) {
     $email_message .= "First Name: ".clean_string($first_name)."\n";
     $email_message .= "Last Name: ".clean_string($last_name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
-    $email_message .= "Company: ".clean_string($email_company)."\n";
+    $email_message .= "Company: ".clean_string($company)."\n";
     $email_message .= "Telephone: ".clean_string($telephone)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
 
@@ -77,7 +77,8 @@ $headers = 'From: '.$email_from."\r\n".
 ?>
 
 <!-- place your own success html below -->
-
+<td align="center" valign="top"><a href="index.html"><img src="images/logo.jpg" alt="KJD IT Solutions" title="KJD IT Solutions" width="169" height="111" border="0" /></a></td>
+<br><br/>
 Thank you for contacting us. We will be in touch with you very soon.<br><br/>
 <form>
 	<input type="button" value="Return to previous page" onClick="javascript:history.go(-1)" />
