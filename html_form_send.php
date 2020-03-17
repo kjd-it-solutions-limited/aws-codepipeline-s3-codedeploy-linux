@@ -13,6 +13,7 @@ if(isset($_POST['email'])) {
         echo "These errors appear below.<br /><br />";
         echo $error."<br /><br />";
         echo "Please go back and fix these errors.<br /><br />";
+        
         die();
     }
 
