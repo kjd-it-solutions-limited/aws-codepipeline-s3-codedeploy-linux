@@ -13,7 +13,7 @@ if(isset($_POST['email'])) {
         echo "These errors appear below.<br /><br />";
         echo $error."<br /><br />";
         echo "Please go back and fix these errors.<br /><br />";
-        
+
         die();
     }
 
@@ -81,6 +81,8 @@ $headers = 'From: '.$email_from."\r\n".
 <td align="center" valign="top"><a href="index.html"><img src="images/logo.jpg" alt="KJD IT Solutions" title="KJD IT Solutions" width="169" height="111" border="0" /></a></td>
 <br><br/>
 Thank you for contacting us. We will be in touch with you very soon.<br><br/>
+<p>While you wait, why not check out our <a href="recommendations.html" title="Check out our Client Feedback">Feedback</a> </p> </td>
+
 <form>
 	<input type="button" value="Return to previous page" onClick="javascript:history.go(-1)" />
 </form>
