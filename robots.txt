@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /images/
+Disallow: /aspnet_client
+Dosallow: /Docs
