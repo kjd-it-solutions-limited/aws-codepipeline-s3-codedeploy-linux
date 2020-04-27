@@ -4,7 +4,8 @@
    echo "ken@kjdsolutions.co.uk"
    echo "Yassmine22"
    echo ""
-   git commit -m "test"
+   mess=`date`
+   git commit -m "updated on $mess to latest files"
    git push 
    git status
    #git status > git_status.txt
