@@ -1,4 +1,4 @@
-   cd ~/aws-codepipeline-s3-codedeploy-linux/
+   cd /Users/git/aws-codepipeline-s3-codedeploy-linux/
    git add *
    echo ""
    echo "ken@kjdsolutions.co.uk"
