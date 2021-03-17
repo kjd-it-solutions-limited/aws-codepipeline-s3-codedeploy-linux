@@ -20,8 +20,8 @@ chk1=`sudo ls /Volumes/Qweb | wc -l`
 if 
 [ $chk1 -ge 1 ]
 then
+echo "Sending Files to QNAP, Please wait"
 sudo rsync -aruv /Users/git/aws-codepipeline-s3-codedeploy-linux/* /Volumes/Qweb
-echo "Updating Files, Please wait"
 sleep 5
 echo "files updated"
 echo "open http://192.168.3.56/"
