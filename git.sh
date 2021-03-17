@@ -1,9 +1,9 @@
    cd /Users/git/aws-codepipeline-s3-codedeploy-linux/
    git add *
-   echo ""
-   echo "ken@kjdsolutions.co.uk"
-   echo "Yassmine22"
-   echo ""
+   #echo ""
+   #echo "ken@kjdsolutions.co.uk"
+   #echo "Yassmine22"
+   #echo ""
    mess=`date`
    git commit -m "updated on $mess to latest files"
    git push 
