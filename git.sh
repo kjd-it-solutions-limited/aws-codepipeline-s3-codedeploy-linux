@@ -22,6 +22,7 @@ if
 then
 sudo rsync -aruv /Users/git/aws-codepipeline-s3-codedeploy-linux/* /Volumes/Qweb
 echo "files updated"
+echo "open http://192.168.3.56/"
 else 
 echo "no mountpoint"
 fi
