@@ -20,7 +20,7 @@ chk1=`sudo ls /Volumes/Qweb | wc -l`
 if 
 [ $chk1 -ge 1 ]
 then
-sudo sync -aruv /Users/git/aws-codepipeline-s3-codedeploy-linux/* /Volumes/Qweb
+sudo rsync -aruv /Users/git/aws-codepipeline-s3-codedeploy-linux/* /Volumes/Qweb
 echo "files updated"
 else 
 echo "no mountpoint"
