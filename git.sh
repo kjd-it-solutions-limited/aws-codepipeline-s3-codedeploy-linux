@@ -21,6 +21,7 @@ if
 [ $chk1 -ge 1 ]
 then
 sudo rsync -aruv /Users/git/aws-codepipeline-s3-codedeploy-linux/* /Volumes/Qweb
+sleep 5
 echo "files updated"
 echo "open http://192.168.3.56/"
 else 
