@@ -15,3 +15,13 @@
    git commit -m "updated on $mess"
    #git status
    #mail -s "git status" ken@kjdsolutions.co.uk < git_status.txt
+
+chk1=`ls /Volumes/Qweb | wc -l`
+if 
+[ $chk1 -ge 1 ]
+then
+rsync -aruv /Users/git/aws-codepipeline-s3-codedeploy-linux/* /Volumes/Qweb
+echo "files updated"
+else 
+echo "no mountpoint"
+fi
