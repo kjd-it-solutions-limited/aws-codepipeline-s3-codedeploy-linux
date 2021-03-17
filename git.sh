@@ -16,7 +16,7 @@
    #git status
    #mail -s "git status" ken@kjdsolutions.co.uk < git_status.txt
 
-chk1=`ls /Volumes/Qweb | wc -l`
+chk1=`sudo ls /Volumes/Qweb | wc -l`
 if 
 [ $chk1 -ge 1 ]
 then
